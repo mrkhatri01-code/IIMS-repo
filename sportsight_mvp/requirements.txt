@@ -1,0 +1,8 @@
+ultralytics
+opencv-python
+ffmpeg-python
+python-dotenv
+requests
+transformers
+torch
+openai 
