@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sportsight MVP - AI Sports Highlight Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SportSight MVP</h1>
+    <p>AI-powered Sports Highlight Generator</p>
+  </header>
+  <main>
+    <section id="upload-section">
+      <h2>1. Upload Your Match Video</h2>
+      <form id="upload-form">
+        <input type="file" id="video-input" accept="video/*" required />
+        <button type="submit">Upload</button>
+      </form>
+    </section>
+    <section id="run-section">
+      <h2>2. Generate Highlights</h2>
+      <button id="run-btn" disabled>Run Highlight Generator</button>
+    </section>
+    <section id="status-section">
+      <h2>Status</h2>
+      <div id="status-msg">Waiting for video upload...</div>
+    </section>
+    <section id="results-section" style="display:none;">
+      <h2>3. Highlights & Commentary</h2>
+      <div id="results-list"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 SportSight MVP</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html> 
